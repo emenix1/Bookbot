@@ -36,4 +36,4 @@ def prepare_book(path: str) -> None:
         page_number += 1
 
 
-prepare_book('/home/emen/Downloads/book.txt')
+prepare_book('book/book.txt')
