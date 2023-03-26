@@ -1,4 +1,4 @@
-BOOK_PATH = ''
+BOOK_PATH = 'book/book.txt'
 PAGE_SIZE = 1050
 
 book: dict[int, str] = {}
@@ -36,4 +36,4 @@ def prepare_book(path: str) -> None:
         page_number += 1
 
 
-prepare_book('book/book.txt')
+prepare_book('BOOK_PACH')
