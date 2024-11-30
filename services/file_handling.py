@@ -36,4 +36,4 @@ def prepare_book(path: str) -> None:
         page_number += 1
 
 
-prepare_book('BOOK_PACH')
+prepare_book('BOOK_PATH')
